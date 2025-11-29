@@ -1,3 +1,3 @@
-sakib 15 80
-rakib 18 85
-akib 20 75
+sakib ahmed 15 80
+rakib khan 18 85
+akib hossain 20 75
