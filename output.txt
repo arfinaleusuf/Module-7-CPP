@@ -1,6 +1,5 @@
-rakib 18 94
-rifat 23 94
-sakib 15 93
-sifat 1 92
-ifat 2 92
-akib 20 92
+Zubair 57 86
+Sakib 55 86
+Ahsan 39 86
+Asif 29 95
+Joy 12 99
