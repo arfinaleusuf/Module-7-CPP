@@ -10,14 +10,15 @@ public:
 
 bool cmp(Student l, Student r)
 {
-    if(l.marks == r.marks)
-    {
-        return l.roll < r.roll;;
-    }
-    else
-    {
-        return l.marks > r.marks;
-    }
+    return (l.marks == r.marks) ? l.roll < r.roll : l.marks > r.marks;
+    // if(l.marks == r.marks)
+    // {
+    //     return l.roll < r.roll;;
+    // }
+    // else
+    // {
+    //     return l.marks > r.marks;
+    // }
 }
 int main()
 {
