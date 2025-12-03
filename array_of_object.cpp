@@ -2,7 +2,7 @@
 using namespace std;
 class Student
 {
-    public:
+public:
     string name;
     int roll;
     int marks;
@@ -10,16 +10,15 @@ class Student
 int main()
 {
     int n;
-    cin>> n;
-    // int a[5];
+    cin >> n;
     Student a[n];
-    for(int i =0; i<n; i++)
+    for (int i = 0; i < n; i++)
     {
         cin.ignore();
-        getline(cin,a[i].name);
-        cin>> a[i].roll >> a[i].marks;
+        getline(cin, a[i].name);
+        cin >> a[i].roll >> a[i].marks;
     }
-    for(int i = 0; i<n; i++)
+    for (int i = 0; i < n; i++)
     {
         cout << a[i].name << " " << a[i].roll << " " << a[i].marks << endl;
     }
